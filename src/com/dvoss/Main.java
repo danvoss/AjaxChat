@@ -72,7 +72,7 @@ public class Main {
         Spark.delete(
                 "/delete-message",
                 (request, response) -> {
-                    // delete message in databse
+                    // delete message in database
                     return "";
                 }
         );
